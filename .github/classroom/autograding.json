@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_notebook.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_einsum.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_gauss.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_greatest.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_game_of_life.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_diff_evolution_1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_diff_evolution_2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_diff_evolution_3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "pytest",
+      "setup": "",
+      "run": "/opt/conda/bin/pytest -vs test_diff_evolution_4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
